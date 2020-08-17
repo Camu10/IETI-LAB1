@@ -4,7 +4,7 @@ import {Todo} from './Todo'
 export class TodoList extends React.Component {
 
 	render (){
-		const data = this.props.todoList;
+		const data = this.props.items;
 		const listItems = data.map((todo,index) => (
 			<li key={index}>
 				{
